@@ -8,17 +8,17 @@ interface List {
 }
 
 export const getList = async () => {
-  const response = await axios.get("http://localhost:4000/list");
+  const response = await axios.get("API/list");
   return response;
 };
 
 export const addToDo = async (lists: { title: string; body: string }) => {
-  const response = await axios.post("http://localhost:4000/list", lists);
+  const response = await axios.post("API/list", lists);
   return response;
 };
 
 export const deleteToDo = async (id: number) => {
-  const response = await axios.delete(`http://localhost:4000/list/${id}`);
+  const response = await axios.delete(`API/list/${id}`);
   return response;
 };
 
