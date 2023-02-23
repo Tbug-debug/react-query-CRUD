@@ -24,7 +24,7 @@ export const deleteToDo = async (id: number) => {
 
 export const modifyToDo = async (isDone: List) => {
   const data = await axios.patch(
-    `http://localhost:4000/list/${isDone.id}`,
+    `API/list/${isDone.id}`,
     isDone
   );
   return data;
