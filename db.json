@@ -1,34 +1,3 @@
 {
-  "list": [
-    {
-      "title": "34234",
-      "body": "바나나",
-      "isDone": true,
-      "id": 1
-    },
-    {
-      "title": "기모지",
-      "body": "ㄴㅁㅇㅁㄴ",
-      "isDone": false,
-      "id": 2
-    },
-    {
-      "title": "ㅇㄹㄷㅁㅇㄴㄹ",
-      "body": "ㄷㅈㅅㄱ42524",
-      "isDone": false,
-      "id": 3
-    },
-    {
-      "title": "4534",
-      "body": "3546436",
-      "isDone": true,
-      "id": 4
-    },
-    {
-      "title": "ㄴㅇㄹㄴㅇㄹㄴㅇㄹㅈㄷ",
-      "body": "ㄴㅇㄹㄴㅇㄹ",
-      "isDone": true,
-      "id": 5
-    }
-  ]
+  "list": []
 }
